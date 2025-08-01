@@ -33,3 +33,18 @@ G-Scanner is designed to assist security professionals, bug bounty hunters, and 
 ```bash
 git clone https://github.com/your-username/g-scanner.git
 cd g-scanner
+
+
+
+ python3 'g-scanner (1).py' -h
+
+ ██████╗  ███████╗  █████╗   ██████╗███╗   ██╗███╗   ██╗███████╗██████╗
+██╔════╝  ██╔══██╗██╔══██╗██╔════╝████╗  ██║████╗  ██║██╔════╝██╔══██╗
+██║  ███╗ ███████║███████║██║     ██╔██╗ ██║██╔██╗ ██║█████╗  ██████╔╝
+██║   ██║ ██╔══██║██╔══██║██║     ██║╚██╗██║██║╚██╗██║██╔══╝  ██╔══██╗
+╚██████╔╝ ██║  ██║██║  ██║╚██████╗██║ ╚████║██║ ╚████║███████╗██║  ██║
+ ╚═════╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+               Subdomain Finder by Gopal
+
+Usage: python3 g-scanner.py <domain> [-o OUTPUT]
+Example: python3 g-scanner.py nasa.gov -o nasa_subs.txt
