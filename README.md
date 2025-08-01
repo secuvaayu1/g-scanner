@@ -1,6 +1,6 @@
 # G-Scanner – Subdomain Finder by Gopal
 
-**G-Scanner** is a lightweight, Python-based subdomain enumeration tool developed by Gopal (Adavirao Vadiraj Kulkarni) with the assistance of AI. It collects subdomains from multiple OSINT sources using parallel processing to ensure fast and accurate enumeration.
+**G-Scanner** is a lightweight, Python-based subdomain enumeration tool developed by Gopal (Adavirao) with the assistance of AI. It collects subdomains from multiple OSINT sources using parallel processing to ensure fast and accurate enumeration.
 
 ---
 
