@@ -47,4 +47,30 @@ cd g-scanner
                Subdomain Finder by Gopal
 
 Usage: python3 g-scanner.py <domain> [-o OUTPUT]
-Example: python3 g-scanner.py nasa.gov -o nasa_subs.txt
+Example: python3 'g-scanner (1).py' testphp.vulnweb.com -o test.txt
+
+
+## Output
+
+ 
+ ██████╗  ███████╗  █████╗   ██████╗███╗   ██╗███╗   ██╗███████╗██████╗
+██╔════╝  ██╔══██╗██╔══██╗██╔════╝████╗  ██║████╗  ██║██╔════╝██╔══██╗
+██║  ███╗ ███████║███████║██║     ██╔██╗ ██║██╔██╗ ██║█████╗  ██████╔╝
+██║   ██║ ██╔══██║██╔══██║██║     ██║╚██╗██║██║╚██╗██║██╔══╝  ██╔══██╗
+╚██████╔╝ ██║  ██║██║  ██║╚██████╗██║ ╚████║██║ ╚████║███████╗██║  ██║
+ ╚═════╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+               Subdomain Finder by Gopal
+
+[*] Enumerating subdomains for: testphp.vulnweb.com
+[+] fetch_alienvault: 3 found
+[+] fetch_urlscan: 1 found
+[+] fetch_facebook_cert: 0 found
+[+] fetch_certspotter: 0 found
+[+] fetch_anubis: 0 found
+[+] fetch_hackertarget: 1 found
+[+] Total unique subdomains found: 3
+[✓] Subdomains saved to test.txt
+
+sieb-web1.testphp.vulnweb.com
+testphp.vulnweb.com
+www.testphp.vulnweb.com
