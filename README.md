@@ -74,3 +74,6 @@ Example: python3 'g-scanner (1).py' testphp.vulnweb.com -o test.txt
 sieb-web1.testphp.vulnweb.com
 testphp.vulnweb.com
 www.testphp.vulnweb.com
+
+
+Note :- Install Required Library and dependencies
